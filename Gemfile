@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
 gem "addressable"
-gem "middleman", "~> 4.5.1"
+gem "middleman", "~> 4.6.1"
 gem "middleman-autoprefixer"
 gem "middleman-blog"
-gem "middleman-livereload"
+gem "middleman-livereload", ">= 3.5.0"
 gem "middleman-minify-html"
 gem "middleman-syntax"
 gem "middleman-gh-pages"
