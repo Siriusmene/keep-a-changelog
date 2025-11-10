@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.2.2.2)
+    activesupport (7.2.3)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -19,8 +19,8 @@ GEM
     autoprefixer-rails (10.4.16.0)
       execjs (~> 2)
     base64 (0.3.0)
-    benchmark (0.4.1)
-    bigdecimal (3.2.3)
+    benchmark (0.5.0)
+    bigdecimal (3.3.1)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -39,7 +39,7 @@ GEM
     fast_blank (1.0.1)
     fastimage (2.4.0)
     ffi (1.17.2)
-    haml (6.3.0)
+    haml (6.4.0)
       temple (>= 0.8.2)
       thor
       tilt
@@ -66,7 +66,7 @@ GEM
     middleman-autoprefixer (3.0.0)
       autoprefixer-rails (~> 10.0)
       middleman-core (>= 4.0.0)
-    middleman-blog (4.1.0)
+    middleman-blog (4.2.1)
       addressable (~> 2.3)
       middleman-core (>= 4.0.0)
       tzinfo (>= 0.3.0)
@@ -112,7 +112,7 @@ GEM
     middleman-syntax (3.6.1)
       middleman-core (>= 3.2)
       rouge (~> 3.2)
-    minitest (5.25.5)
+    minitest (5.26.1)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
@@ -126,7 +126,7 @@ GEM
     prism (1.5.1)
     public_suffix (6.0.2)
     racc (1.8.1)
-    rack (3.1.16)
+    rack (3.1.19)
     rack-livereload (0.6.1)
       rack (>= 3.0, < 3.2)
     rackup (2.2.1)
@@ -196,7 +196,7 @@ DEPENDENCIES
   addressable
   middleman (~> 4.6.0)
   middleman-autoprefixer
-  middleman-blog (>= 4.1.0)
+  middleman-blog (>= 4.2.0)
   middleman-gh-pages
   middleman-livereload (>= 3.5.0)
   middleman-minify-html
@@ -206,4 +206,4 @@ DEPENDENCIES
   standard (~> 1.47, >= 1.47.0)
 
 BUNDLED WITH
-   2.3.26
+   2.3.27
